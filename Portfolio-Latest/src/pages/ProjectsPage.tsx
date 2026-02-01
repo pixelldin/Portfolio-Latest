@@ -8,15 +8,15 @@ export default function ProjectsPage() {
       tech: "Terraform, GitHub, Jenkins, Maven, Tomcat, Docker, AWS EC2",
       link: "https://github.com/pixelldin/CI-CD-Project/"
     },
-    {/*{
-      name: "Job Use",
-      award: "3rd Place + 2nd Place SonicJobs Prize @ AGI House Web Agent Build Day",
-      date: "Sep. 2025",
-      description: "A job application agent that fills out any job application form in real time with automated form filling, profile creation, and company research.",
-      tech: "Browser Use, Convex, React, TypeScript, Vite",
-      link: "https://github.com/Cheggin/Job-Use"
-    },
     {
+      name: "Secure AWS Two-Tier Architecture Using Terraform",
+      award: "A fully automated and secure two-tier AWS infrastructure project",
+      date: "Nov. 2025",
+      description: "This project provisions a secure two-tier AWS architecture using Terraform, with public and private subnets, Bastion Hosts, a NAT Gateway, and isolated web/database tiers. Everything is deployed through reusable Terraform modules for consistent, version-controlled IaC.",
+      tech: "Terraform, AWS VPC, EC2, Security Groups, NAT Gateway, Bastion Host, Public/Private Subnets",
+      link: "https://github.com/pixelldin/aws-two-tier-vpc"
+    },
+    {/*{
       name: "FinHog",
       award: "1st Place Best Use of Anthropic + 2nd Place Best Financial Visualization Agent @ HackMIT",
       date: "Sep. 2025",

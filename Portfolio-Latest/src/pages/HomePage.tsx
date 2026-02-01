@@ -28,7 +28,7 @@ export default function HomePage() {
           github
         </a>
         <span className="link-separator">·</span>
-        <a href="https://www.linkedin.com/in/dinesh-p-51573b259/" target="_blank" rel="noopener noreferrer" className="text-link">
+        <a href="www.linkedin.com/in/dinesh-sre/" target="_blank" rel="noopener noreferrer" className="text-link">
           linkedin
         </a>
         <span className="link-separator">·</span>

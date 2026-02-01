@@ -5,11 +5,12 @@ import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";
-import InterestsPage from "./pages/InterestsPage";
-import InterestPage from "./pages/InterestPage";
+{/*import InterestsPage from "./pages/InterestsPage";*/}
+{/*import InterestPage from "./pages/InterestPage";*/}
 {/*import ArchivePage from "./pages/ArchivePage";*/}
 import ContactPage from "./pages/ContactPage";
 import ResumePage from "./pages/ResumePage";
+import CertificationPage from "./pages/CertificationPage";
 import Stats from "./components/Stats";
 
 export default function App() {
@@ -34,7 +35,7 @@ export default function App() {
     <div className="portfolio-container">
       <header className="portfolio-header">
         <h1 className="portfolio-title">Dinesh P</h1>
-        <p className="portfolio-date">Last updated: October 28, 2025</p>
+        <p className="portfolio-date">Last updated: December 12, 2025</p>
       </header>
 
       <nav className="portfolio-nav">
@@ -66,9 +67,9 @@ export default function App() {
         <NavLink to="/blog" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           blog
         </NavLink>
-        <NavLink to="/interests" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+        {/*<NavLink to="/interests" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           interests
-        </NavLink>
+        </NavLink>*/}
         {/*<NavLink to="/archive" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           archive
         </NavLink>*/}
@@ -78,6 +79,10 @@ export default function App() {
         <NavLink to="/resume" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
   resume
 </NavLink>
+<NavLink to="/certifications" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+  certifications
+</NavLink>
+
 
       </nav>
 
@@ -87,11 +92,13 @@ export default function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:id" element={<BlogPostPage />} />
-          <Route path="/interests" element={<InterestsPage />} />
-          <Route path="/interests/:id" element={<InterestPage />} />
+          {/*<Route path="/interests" element={<InterestsPage />} />*/}
+          {/*<Route path="/interests/:id" element={<InterestPage />} />*/}
           {/*<Route path="/archive" element={<ArchivePage />} />*/}
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/certifications" element={<CertificationPage />} />
+
         </Routes>
       </main>
 

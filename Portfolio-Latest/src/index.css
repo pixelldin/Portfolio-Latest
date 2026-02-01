@@ -7,11 +7,11 @@
 }
 
 :root {
-  --bg-primary: #ffffff;
+  --bg-primary: #f0f0f0;
   --text-primary: #1a1a1a;
   --text-secondary: #333;
   --text-muted: #666;
-  --border-color: #e0e0e0;
+  --border-color: #d1d1d1;
   --link-separator: #999;
 }
 
@@ -326,6 +326,21 @@ h1, h2, h3, h4, h5, h6 {
 
   .portfolio-nav {
     gap: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: calc(100% + 48px);
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .portfolio-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .portfolio-nav .theme-toggle {

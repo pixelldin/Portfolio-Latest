@@ -10,7 +10,7 @@ export default function ContactPage() {
 
       <div className="contact-info">
         <p className="body-text">
-          <span className="contact-label">Email:</span> Dineshdi.cc@gmail.com
+          <span className="contact-label">Email:</span> dineshdi.cc@gmail.com
         </p>
         <p className="body-text">
           <span className="contact-label">GitHub:</span>{" "}
@@ -20,7 +20,7 @@ export default function ContactPage() {
         </p>
         <p className="body-text">
           <span className="contact-label">LinkedIn:</span>{" "}
-          <a href="https://www.linkedin.com/in/dinesh-p-51573b259/" target="_blank" rel="noopener noreferrer" className="text-link">
+          <a href="www.linkedin.com/in/dinesh-sre/" target="_blank" rel="noopener noreferrer" className="text-link">
             /in/dinesh
           </a>
         </p>
